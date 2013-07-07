@@ -1,3 +1,9 @@
 # homebrew-alt
 
-自分用Formula
+Homebrewリポジトリに無い専門的なFormulaを扱います。
+
+## Usage
+```bash
+	$ brew tap oame/alt
+	$ brew install julius
+```

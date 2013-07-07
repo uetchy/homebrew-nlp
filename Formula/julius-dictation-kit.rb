@@ -2,10 +2,13 @@ require 'formula'
 
 class JuliusDictationKit < Formula
   homepage 'http://julius.sourceforge.jp/'
-  url 'http://sourceforge.jp/frs/redir.php?m=jaist&f=%2Fjulius%2F59050%2Fdictation-kit-v4.2.3.tar.gz'
-  md5 '0de511ff01a2b45d6998b7b7f1d78db0'
+  url 'http://sourceforge.jp/frs/redir.php?f=/julius/59050/dictation-kit-v4.2.3.tar.gz'
+  sha1 '39c66aa7d9ccf348467d38e0e5ebb3d946b577ff'
 
   def install
+    prefix.install 'doc/Release.txt'
+    prefix.install 'doc/Release-ja.txt'
+    man.install Dir['doc/man/*']
     share.install 'fast.jconf'
     share.install 'light.jconf'
     share.install 'model'

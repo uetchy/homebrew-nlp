@@ -1,6 +1,6 @@
 # homebrew-alt
 
-Homebrewリポジトリに無い専門的なFormulaを扱います。
+Homebrewリポジトリに無い専門的なFormulaをプルリクエストするのが面倒なので独自にリポジトリつくりました
 
 ## Usage
 ```bash

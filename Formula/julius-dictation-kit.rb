@@ -6,8 +6,13 @@ class JuliusDictationKit < Formula
   sha1 '39c66aa7d9ccf348467d38e0e5ebb3d946b577ff'
 
   def install
+    prefix.install 'INSTALL.txt'
+    prefix.install 'HOWTO.txt'
+    prefix.install 'TROUBLE.txt'
+    prefix.install 'doc/LICENSE.txt'
     prefix.install 'doc/Release.txt'
     prefix.install 'doc/Release-ja.txt'
+    prefix.install 'doc/Sample.jconf'
     man.install Dir['doc/man/*']
     share.install 'fast.jconf'
     share.install 'light.jconf'

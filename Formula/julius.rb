@@ -7,7 +7,7 @@ class Julius < Formula
 
   def install
     ENV.j1
-    ENV['CFLAGS'] = '-DNDEBUG -03'
+    ENV['CFLAGS'] = '-DNDEBUG -O3'
     args = %W[
       --enable-words-int
       --disable-debug

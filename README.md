@@ -1,9 +1,15 @@
-# homebrew-alt
+# homebrew-nlp
 
-Homebrewリポジトリに無い専門的なFormulaをプルリクエストするのが面倒なので独自にリポジトリつくりました
+自然言語処理に関連するライブラリに特化したHomebrewリポジトリ
 
 ## Usage
 ```bash
-$ brew tap oame/alt
+$ brew tap oame/nlp
 $ brew install julius julius-dictation-kit
 ```
+
+## Packages list
+- Julius
+- Julius Dictation Kit
+- HTS Engine
+- Open JTalk

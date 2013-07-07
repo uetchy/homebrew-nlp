@@ -2,7 +2,7 @@ require 'formula'
 
 class Julius < Formula
   homepage 'http://julius.sourceforge.jp/'
-  url 'http://sourceforge.jp/frs/redir.php?m=keihanna&f=%2Fjulius%2F51820%2Fjulius-4.2.3.tar.gz'
+  url 'http://sourceforge.jp/frs/redir.php?f=/julius/59049/julius-4.2.3.tar.gz'
   sha1 '8b1acae4079cbc5ee32b0536da5d4403361a0676'
 
   def install

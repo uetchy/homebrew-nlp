@@ -1,9 +1,9 @@
 require 'formula'
 
 class OpenJtalk < Formula
-  homepage ''
-  url 'http://downloads.sourceforge.net/project/open-jtalk/Open%20JTalk/open_jtalk-1.06/open_jtalk-1.06.tar.gz'
-  sha1 'f58ef939727b5287aa9710f35f22719eaaf8b758'
+  homepage 'http://open-jtalk.sourceforge.net/'
+  url 'http://downloads.sourceforge.net/project/open-jtalk/Open%20JTalk/open_jtalk-1.07/open_jtalk-1.07.tar.gz'
+  sha1 '792fe7ba9ce2189e67b2d6902147e560cb6d5446'
 
   def install
     args = %W[

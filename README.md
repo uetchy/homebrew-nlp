@@ -4,10 +4,9 @@ a Homebrew keg that specialized in Natural Language Processing.
 
 自然言語処理に関連するライブラリに特化したHomebrewリポジトリ
 
-## Usage
+## Install
 ```bash
 $ brew tap oame/nlp
-$ brew install julius julius-dictation-kit
 ```
 
 ## Package index

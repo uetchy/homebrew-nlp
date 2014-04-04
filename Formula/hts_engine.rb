@@ -2,8 +2,8 @@ require 'formula'
 
 class HtsEngine < Formula
   homepage ''
-  url 'http://downloads.sourceforge.net/project/hts-engine/hts_engine%20API/hts_engine_API-1.07/hts_engine_API-1.07.tar.gz'
-  sha1 '11a81e86afa06ed0d7e7e7c91d249eb37e91e672'
+  url 'http://downloads.sourceforge.net/project/hts-engine/hts_engine%20API/hts_engine_API-1.08/hts_engine_API-1.08.tar.gz'
+  sha1 'd2b398b3a6af9639df39cf6dc457d79e79f2a60e'
 
   def install
     args = %W[

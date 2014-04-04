@@ -2,8 +2,8 @@ require 'formula'
 
 class Julius < Formula
   homepage 'http://julius.sourceforge.jp/'
-  url 'http://sourceforge.jp/frs/redir.php?f=/julius/59049/julius-4.2.3.tar.gz'
-  sha1 '8b1acae4079cbc5ee32b0536da5d4403361a0676'
+  url 'http://sourceforge.jp/frs/redir.php?f=/julius/60273/julius-4.3.1.tar.gz'
+  sha1 '88f64ae9ed00b6ab5a2d4fe07e3ced141a46c196'
 
   def install
     ENV.j1
@@ -18,9 +18,6 @@ class Julius < Formula
     ]
 
     system "./configure", *args
-    inreplace "julius/main.c",
-        'if (j_adin_init(recog) == FALSE) return;',
-        'if (j_adin_init(recog) == FALSE) return 0;'
     system "make"
     system "make install"
   end

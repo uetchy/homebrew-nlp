@@ -3,7 +3,7 @@ require 'formula'
 class JuliusDictationKit < Formula
   homepage 'http://julius.sourceforge.jp/'
   url 'http://sourceforge.jp/frs/redir.php?f=/julius/60416/dictation-kit-v4.3.1-osx.tgz'
-  sha1 '8b94b3dabf1ed27f94864e72767abb2fc274c5db'
+  sha1 '3e9fe6edcc3647192369cc08ac1725618eeb1551'
 
   def install
     prefix.install 'HOWTO.txt'

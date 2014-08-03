@@ -12,6 +12,7 @@ $ brew tap oame/nlp
 ## Package index
 - Julius(julius)
 - Julius Dictation Kit(julius-dictation-kit)
+- Julius Grammar Kit(julius-grammar-kit)
 - HTS Engine(hts_engine)
 - Open JTalk(open_jtalk)
 

@@ -10,10 +10,12 @@ $ brew tap oame/nlp
 ```
 
 ## Package index
+- HTS Engine(hts_engine)
 - Julius(julius)
 - Julius Dictation Kit(julius-dictation-kit)
 - Julius Grammar Kit(julius-grammar-kit)
-- HTS Engine(hts_engine)
+- Juman(juman)
+- KNP(knp)
 - Open JTalk(open_jtalk)
 
 ## Contributing

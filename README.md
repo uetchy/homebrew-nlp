@@ -10,6 +10,8 @@ $ brew tap oame/nlp
 ```
 
 ## Package index
+- ChaSen(chasen)
+- Darts(darts)
 - HTS Engine(hts_engine)
 - Julius(julius)
 - Julius Dictation Kit(julius-dictation-kit)

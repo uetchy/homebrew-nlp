@@ -13,6 +13,7 @@ $ brew tap oame/nlp
 - ChaSen(chasen)
 - Darts(darts)
 - HTS Engine(hts_engine)
+- IPAdic(ipadic)
 - Julius(julius)
 - Julius Dictation Kit(julius-dictation-kit)
 - Julius Grammar Kit(julius-grammar-kit)

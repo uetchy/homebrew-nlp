@@ -6,7 +6,7 @@ a Homebrew keg that specialized in Natural Language Processing.
 
 ## Install
 ```bash
-$ brew tap oame/nlp
+$ brew tap uetchy/nlp
 ```
 
 ## Package index

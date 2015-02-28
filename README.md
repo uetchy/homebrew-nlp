@@ -2,22 +2,22 @@
 
 a Homebrew keg that specialized in Natural Language Processing.
 
-自然言語処理に関連するライブラリに特化したHomebrewリポジトリ
+自然言語処理に関連するライブラリに特化したHomebrewリポジトリ.
 
 ## Install
-```bash
+
+```console
 $ brew tap uetchy/nlp
 ```
 
 ## Package index
+
 - ChaSen(chasen)
 - Darts(darts)
-- HTS Engine(hts_engine)
-- IPAdic(ipadic)
+- HTS Engine API(hts_engine_api)
 - Julius(julius)
 - Julius Dictation Kit(julius-dictation-kit)
 - Julius Grammar Kit(julius-grammar-kit)
-- Juman(juman)
 - KNP(knp)
 - Open JTalk(open_jtalk)
 

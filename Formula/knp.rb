@@ -1,13 +1,9 @@
 require "formula"
 
-# Documentation: https://github.com/Homebrew/homebrew/wiki/Formula-Cookbook
-#                /usr/local/Library/Contributions/example-formula.rb
-# PLEASE REMOVE ALL GENERATED COMMENTS BEFORE SUBMITTING YOUR PULL REQUEST!
-
 class Knp < Formula
   homepage "http://nlp.ist.i.kyoto-u.ac.jp/index.php?KNP"
-  url "http://nlp.ist.i.kyoto-u.ac.jp/DLcounter/lime.cgi?down=http://nlp.ist.i.kyoto-u.ac.jp/nl-resource/knp/knp-4.11.tar.bz2&name=knp-4.11.tar.bz2"
-  sha1 "56ee0f9e5dfd1fa4cc87a02043c5eb3b9af6812a"
+  url "http://nlp.ist.i.kyoto-u.ac.jp/DLcounter/lime.cgi?down=http://nlp.ist.i.kyoto-u.ac.jp/nl-resource/knp/knp-4.12.tar.bz2&name=knp-4.12.tar.bz2"
+  sha1 "715246971b758330714e27348e83cd95b1fa7feb"
 
   depends_on "juman"
   depends_on "tinycdb"
@@ -25,7 +21,7 @@ class Knp < Formula
     args << "--with-crf" if build.with? "crf++"
 
     system "./configure", *args
-    system "make", "install" # if this fails, try separate make/make install steps
+    system "make", "install"
   end
 
   test do

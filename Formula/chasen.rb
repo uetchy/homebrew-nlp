@@ -3,7 +3,7 @@ require "formula"
 class Chasen < Formula
   homepage "http://chasen-legacy.sourceforge.jp/"
   url "http://sourceforge.jp/frs/redir.php?f=/chasen-legacy/56305/chasen-2.4.5.tar.gz"
-  sha1 "a07d7f423531d2c155384bc6de64d515c5f0ac1c"
+  sha256 "fd1a7afd73ed14e18b0fe82965c00a6baae383070360a4220fde01338611416a"
 
   depends_on "darts"
 

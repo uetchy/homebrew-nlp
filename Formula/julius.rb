@@ -3,7 +3,7 @@ require 'formula'
 class Julius < Formula
   homepage 'http://julius.sourceforge.jp/'
   url 'http://sourceforge.jp/frs/redir.php?f=/julius/60273/julius-4.3.1.tar.gz'
-  sha1 '88f64ae9ed00b6ab5a2d4fe07e3ced141a46c196'
+  sha256 '4bf77c7b91f4bb0686c375c70bd4f2077e7de7db44f60716af9f3660f65a6253'
   version '4.3.1'
 
   def install

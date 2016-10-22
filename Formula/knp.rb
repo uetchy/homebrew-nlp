@@ -7,7 +7,6 @@ class Knp < Formula
 
   depends_on "juman"
   depends_on "tinycdb"
-  depends_on "crf++" => :reccomend
 
   def install
     args = %W[
@@ -17,8 +16,6 @@ class Knp < Formula
       --prefix=#{prefix}
       --with-juman-prefix=#{HOMEBREW_PREFIX}/opt/juman
     ]
-
-    args << "--with-crf" if build.with? "crf++"
 
     system "./configure", *args
     system "make", "install"

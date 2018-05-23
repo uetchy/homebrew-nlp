@@ -2,8 +2,8 @@ require "formula"
 
 class Knp < Formula
   homepage "http://nlp.ist.i.kyoto-u.ac.jp/index.php?KNP"
-  url "http://nlp.ist.i.kyoto-u.ac.jp/DLcounter/lime.cgi?down=http://nlp.ist.i.kyoto-u.ac.jp/nl-resource/knp/knp-4.17.tar.bz2&name=knp-4.17.tar.bz2"
-  sha256 "7f7c007b735b4ac2d93eb0958e8253d8d7b607ae93f2238747dbe8e4f15689ca"
+  url "http://nlp.ist.i.kyoto-u.ac.jp/DLcounter/lime.cgi?down=http://nlp.ist.i.kyoto-u.ac.jp/nl-resource/knp/knp-4.19.tar.bz2&name=knp-4.19.tar.bz2"
+  sha256 "fe5d1249e7c7716e4ac76a57052096bb8b321829af39f3fa2ad5acd9e060427b"
 
   depends_on "juman"
   depends_on "tinycdb"
